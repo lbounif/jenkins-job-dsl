@@ -1,6 +1,6 @@
 job('NodeJS example') {
     scm {
-        git('https://github.com/lbounif/jenkins-job-dsl.git') {  node -> // is hudson.plugins.git.GitSCM
+        git('https://github.com/lbounif/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('Lynda Bounif')
             node / gitConfigEmail('l_bounif@esi.dz')
         }
