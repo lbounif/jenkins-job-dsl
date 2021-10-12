@@ -1,4 +1,4 @@
-job('NodeJS example') {
+job('node-express') {
     scm {
         git('https://github.com/lbounif/deploy-example.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('Lynda Bounif')
