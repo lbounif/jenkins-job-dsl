@@ -1,4 +1,4 @@
-pipelineJob('deno app') { 
+pipelineJob('deno app test') { 
 
   def repo = 'https://github.com/lbounif/deno-app' 
 
