@@ -25,3 +25,4 @@ pipelineJob('deno app') {
       } 
     } 
   }
+}
