@@ -1,6 +1,6 @@
 pipelineJob('deno app test') { 
 
-  def repo = 'https://github.com/lbounif/deno-app' 
+  def repo = 'https://github.com/lbounif/deno-app.git' 
 
   description("Deno app") 
   keepDependencies(false) 
